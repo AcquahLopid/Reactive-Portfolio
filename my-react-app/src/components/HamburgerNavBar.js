@@ -39,6 +39,35 @@ transition: transform 0.8s;
 `;
 
 const Icon = styled.span`
+    position: relative;
+    background-color: ${(props) => (props.clicked? "transparent": "black")};
+    width: 3rem;
+    height: 2px;
+    display: inline-block;
+    margin-top: 3.5rem;
+    transition: all 0.3s;
+
+&::before, &::after{
+    content:"";
+    background-color: black;
+    width: 3rem;
+    height: 2px;
+    display: inline-block;
+
+    position: absolute;
+    left: 0;
+    transition: all 0.3s;
+}
+
+&::before{
+    top: ${(props) => (props.clicked? "0": "-0.8rem")};
+    transform: ${(props) => (props.clicked? "rotate(135deg)": "rotate(0)")};
+}
+
+&::after{
+    top: ${(props) => (props.clicked? "0": "0.8rem")};
+    transform: ${(props) => (props.clicked? "rotate(-135deg)": "rotate(0)")};
+}
 
 `;
 function HamburgerNav() {
@@ -52,7 +81,7 @@ function HamburgerNav() {
         <>
             <NavLabel htmlFor="navi-toggle"onClick={handleClick}>
                 <Icon clicked={click}>
-
+                    &nbsp;
                 </Icon>
             </NavLabel>
             <NavBackground clicked={click}></NavBackground>
