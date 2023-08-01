@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const COLORS={
@@ -70,6 +71,34 @@ const Icon = styled.span`
 }
 
 `;
+
+const Navigation = styled.nav`
+    height: 100vh
+    position: fixed
+    top: 0;
+    right: 0;
+    z-index: 600;
+    width: 100%;
+`;
+
+const List = styled.ul`
+    position: absolute;
+    list-style: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+`;
+
+const ListLink = styled(NavLink)`
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: ${COLORS.primaryLight};
+    padding: 1rem 2rem;
+`;
 function HamburgerNav() {
     const [click, setClick] = useState(false);
     const handleClick = () => {
@@ -85,6 +114,31 @@ function HamburgerNav() {
                 </Icon>
             </NavLabel>
             <NavBackground clicked={click}></NavBackground>
+
+            <Navigation onClick={handleClick}>
+                <List>
+                    <li>
+                        <ListLink onClick={handleClick} to = "/">
+                            Home
+                        </ListLink>
+                    </li>
+                    <li>
+                        <ListLink onClick={handleClick} to = "/about">
+                            About
+                        </ListLink>
+                    </li>
+                    <li>
+                        <ListLink onClick={handleClick} to = "/portfolio">
+                            Portfolio
+                        </ListLink>
+                    </li>
+                    <li>
+                        <ListLink onClick={handleClick} to = "/contact">
+                            Contact
+                        </ListLink>
+                    </li>
+                </List>
+            </Navigation>
         </>
     );
 }
