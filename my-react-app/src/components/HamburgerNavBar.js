@@ -73,12 +73,15 @@ const Icon = styled.span`
 `;
 
 const Navigation = styled.nav`
-    height: 100vh
-    position: fixed
+    height: 100vh;
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 600;
-    width: 100%;
+    width: ${(props) => (props.clicked ? "100%" : "0")};
+    opacity: ${(props) => (props.clicked ? "1" : "0")};
+
+    transition: width 0.8s, opacity 0.8s;
 `;
 
 const List = styled.ul`
@@ -98,13 +101,24 @@ const ListLink = styled(NavLink)`
     text-decoration: none;
     color: ${COLORS.primaryLight};
     padding: 1rem 2rem;
+
+    background-image:linear-gradient(
+        120deg,
+        transparent 0%,
+        transparent 50%,
+        #fff 50%);
+    background-size: 240%;
+    transition: all 0.4s;
+
+    &:hover, &:active {
+        background-position: 100%;
+        color: ${COLORS.primaryDark};
+        transform: translateX(1rem);
+    }
 `;
 function HamburgerNav() {
     const [click, setClick] = useState(false);
-    const handleClick = () => {
-        console.log('Clicked!');
-        setClick(!click);
-      };
+    const handleClick = () => setClick(!click);
       
     return (
         <>
@@ -115,7 +129,7 @@ function HamburgerNav() {
             </NavLabel>
             <NavBackground clicked={click}></NavBackground>
 
-            <Navigation onClick={handleClick}>
+            <Navigation clicked={click}>
                 <List>
                     <li>
                         <ListLink onClick={handleClick} to = "/">
