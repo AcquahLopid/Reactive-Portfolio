@@ -1,7 +1,10 @@
-
 import './App.css';
 import HamburgerNav from './components/HamburgerNavBar';
-import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
+import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
+import Home from './components/Pages/Home';
+import Portfolio from './components/Pages/Portfolio';
+import About from './components/Pages/About';
+import Contact from './components/Pages/Contact';
 
 function App() {
   return (
@@ -9,6 +12,17 @@ function App() {
       <Router>
 
       <HamburgerNav/>
+
+      <div className='pages'>
+        <Routes>
+
+        <Route exact path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/portfolio' element={<Portfolio/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+
+        </Routes>
+      </div>
       </Router>
     </>
   );
