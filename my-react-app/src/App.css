@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  height: 100vh;
+  height: 1000vh;
 
   background: #136a8a;  /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -22,9 +22,9 @@ body{
 
 .pages{
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 40%;
+  top: 40%;
+  transform: translate(-40%, -40%);
   font-size: 5rem;
 }
 
