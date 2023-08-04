@@ -16,7 +16,7 @@ function App() {
       <div className='pages'>
         <Routes>
 
-        <Route exact path='/' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/contact' element={<Contact/>}/>
@@ -24,8 +24,13 @@ function App() {
         </Routes>
       </div>
       </Router>
-    </>
+
+<Home> </Home>
+<About> </About>
+<Portfolio> </Portfolio>
+<Contact> </Contact>
+  </>
   );
-}
+};
 
 export default App;

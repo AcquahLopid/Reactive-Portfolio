@@ -3,9 +3,9 @@ html{
 }
 
 body{
-  height: 1000vh;
+  height: 2000vh;
 
-  background: #136a8a;  /* fallback for old browsers */
+  background: #136a8a;   /*fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #267871,
@@ -28,8 +28,13 @@ body{
   font-size: 5rem;
 }
 
+.scroll{
+  padding: 12px;
+  height: 2000px;
+}
+
 @media only screen and (max-width:768px){
   .pages{
     font-size: 2.5rem;
   }
-}
+} 
