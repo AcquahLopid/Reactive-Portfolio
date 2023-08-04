@@ -34,7 +34,7 @@ background-image: radial-gradient(
 height: 6rem;
 width: 6rem;
 border-radius: 50%;
-
+z-index: 600;
 transform: ${(props) =>(props.clicked? "scale(80)":"scale(0)")};
 transition: transform 0.8s;
 `;
@@ -68,6 +68,13 @@ const Icon = styled.span`
 &::after{
     top: ${(props) => (props.clicked? "0": "0.8rem")};
     transform: ${(props) => (props.clicked? "rotate(-135deg)": "rotate(0)")};
+}
+
+${NavLabel}:hover   &::before{
+    top: ${(props) => (props.clicked? "0": "1rem")};
+}
+${NavLabel}:hover   &::after{
+    top: ${(props) => (props.clicked? "0": "-1rem")};
 }
 
 `;
