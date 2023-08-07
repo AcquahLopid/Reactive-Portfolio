@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const COLORS={
-    primaryDark:"#115b4c",
-    primaryLight:"#B6EDC8",
+    primaryDark:"#42275a", //#115b4c
+    primaryLight:"#734b6d", //#B6EDC8
 
 }
 
