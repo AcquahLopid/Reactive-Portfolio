@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+import Github from "./Assets/github (1).png";
+import Linkedin from "./Assets/linkedin.png";
+import Medium from "./Assets/medium.png";
 
 const COLORS={
     primaryDark:"#42275a", //#115b4c
@@ -123,6 +126,44 @@ const ListLink = styled(NavLink)`
         transform: translateX(1rem);
     }
 `;
+
+const LogoLinks = styled.li`
+    justify-content: center;
+    align-items: center;
+    `;
+
+    const bounceAnimation = keyframes`
+        0%, 20%, 60%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+    
+        40% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    
+        80% {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    `; 
+const LogoImg = styled.img`
+    width: 40px; 
+    height: 40px; 
+    padding: 20px;
+    &:hover {
+        animation: ${bounceAnimation} 1s infinite;
+    }
+`;
+
+
+const LogoA = styled.a`
+    // &:hover {
+    //     animation: ${bounceAnimation} 1s infinite;
+    // }
+`;
+
 function HamburgerNav() {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -137,6 +178,7 @@ function HamburgerNav() {
             <NavBackground clicked={click}></NavBackground>
 
             <Navigation clicked={click}>
+            
                 <List>
                     <li>
                         <ListLink onClick={handleClick} to = "/">
@@ -158,6 +200,18 @@ function HamburgerNav() {
                             Contact
                         </ListLink>
                     </li>
+                    <LogoLinks>
+
+                        <LogoA href="https://github.com/AcquahLopid" >
+                            <LogoImg src={Github} alt="Emanuel Molina's Github"/>
+                        </LogoA>
+                        <LogoA href="https://www.linkedin.com/in/emanuel-molina-65b84426b/" >
+                            <LogoImg src={Linkedin} alt="Emanuel Molina's Linkedin"/>
+                        </LogoA>
+                        <LogoA href="https://medium.com/@emanuel.molina2k" >
+                            <LogoImg src={Medium} alt="Emanuel Molina's Medium Blog"/>
+                        </LogoA>
+                    </LogoLinks>
                 </List>
             </Navigation>
         </>

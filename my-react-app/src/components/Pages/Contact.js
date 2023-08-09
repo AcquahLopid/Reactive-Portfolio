@@ -129,7 +129,7 @@ const Contact = () => {
   const email = "your.email@example.com";
   const githubUrl = "https://github.com/your-github-username";
   const linkedinUrl = "https://www.linkedin.com/in/your-linkedin-username";
-  const phoneNumber = "123-456-7890"; // Replace with your actual phone number
+  const phoneNumber = "123-456-7890";
 
   return (
     <>

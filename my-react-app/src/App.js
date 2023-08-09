@@ -25,10 +25,6 @@ function App() {
       </div>
       </Router>
 
-<Home> </Home>
-<About> </About>
-<Portfolio> </Portfolio>
-<Contact> </Contact>
   </>
   );
 };
