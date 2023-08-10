@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="aboutText">
           <h2>About Me</h2>
-          <p>
+          <p className="aboutP">
             As a passionate and dedicated developer, I went through an intensive journey 
             to enhance my skills and advance my career through a bootcamp
             program. With great determination and commitment, I successfully
@@ -22,7 +22,7 @@ const About = () => {
             Through hands-on projects and collaborative learning, I enhanced my 
             problem-solving abilities and gained practical experience in building 
             innovative software solutions. With this certificate 
-            and an insatiable thirst for knowledge, I am now ready to contribute
+            and a thirst for knowledge, I am now ready to contribute
             my skills to the dynamic world of software development, eager to take
             on exciting challenges and make a meaningful impact in the industry. Please feel
             free to look at my past projects, resume, and portfolio, or reach out to me for
@@ -30,6 +30,10 @@ const About = () => {
           </p>
       </div>
     </section>
+    <div className="container">
+      <img/>
+      <p>Hello there</p>
+    </div>
     </>
   );
 };

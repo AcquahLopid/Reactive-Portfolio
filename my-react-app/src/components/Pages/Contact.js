@@ -126,10 +126,10 @@ import React from "react";
 import "./Contact.css"; // Add your own CSS file for styling
 
 const Contact = () => {
-  const email = "your.email@example.com";
+  const email = "Emanuel.Molina2k@gmail.com";
   const githubUrl = "https://github.com/your-github-username";
   const linkedinUrl = "https://www.linkedin.com/in/your-linkedin-username";
-  const phoneNumber = "123-456-7890";
+  const phoneNumber = "501-641-8910";
 
   return (
     <>
