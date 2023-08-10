@@ -12,6 +12,7 @@ html, body{
   display: flex;
   flex-direction: row;
   border-style: hidden hidden solid hidden;
+  padding-top: 60%;
 }
 
 .pictureTitle{
@@ -28,8 +29,30 @@ html, body{
 
 .aboutText{
   font-size: 50%;
+  padding-top: 5%;
 }
 
 .aboutP{
   font-size: 70%;
 }
+/* ------------------------------------------------------------------------------------------ */
+.lang{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.imageGrid{
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(6, 45%);
+  grid-template-rows: repeat(3, 60%);;
+}
+
+@media only screen and (max-width:1322px){
+  .imageGrid, img{
+    width: 70%;
+    padding-left: 10%;
+  }
+ }

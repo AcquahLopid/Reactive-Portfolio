@@ -1,6 +1,8 @@
 import React from "react";
 import "../Pages/About.css";
 import myPicture from "../Assets/Emanuel-blossom.jpg";
+import Html5 from "../Assets/html5.png";
+import lineBar from "../Assets/pngwing.png"
 
 const About = () => {
   return (
@@ -30,9 +32,25 @@ const About = () => {
           </p>
       </div>
     </section>
-    <div className="container">
-      <img/>
-      <p>Hello there</p>
+    <br/>
+    <div className="lang">
+    <img src={lineBar} alt="blue line"/>
+    <h3><em>Languages</em></h3>
+    <img src={lineBar} alt="blue line"/>
+    </div>
+    <div className="imageGrid">
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <p className="">Html5</p>
+      </div>
+      <img src={Html5} alt="Html5 logo"/>
+      <img src={Html5} alt="Html5 logo"/>
+      <img src={Html5} alt="Html5 logo"/>
+      <img src={Html5} alt="Html5 logo"/>
+      <img src={Html5} alt="Html5 logo"/>
+      <img src={Html5} alt="Html5 logo"/>
+      <img src={Html5} alt="Html5 logo"/>
+      <img src={Html5} alt="Html5 logo"/>
     </div>
     </>
   );

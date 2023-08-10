@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  height: 2000vh;
+  height: 200vh;
 
   background: #136a8a;   /*fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -17,7 +17,7 @@ body{
     #136a8a
       ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  color: #effe92
+  color: black
 }
 
 .pages{
@@ -34,23 +34,35 @@ body{
 }
 
 
- @media only screen and (max-width:1280px){
+ @media only screen and (max-width:1322px){
   .pages{
     font-size: 3.5rem;
+    padding-top: 1px;
   }
  }
-@media only screen and (max-width:920px){
+@media only screen and (max-width:900px){
   .pages{
     font-size: 2.7rem;
   }
 } 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:700px){
   .pages{
     font-size: 2rem;
   }
 } 
-@media only screen and (max-width:430px){
+@media only screen and (max-width:500px){
   .pages{
     font-size: 1.5rem;
   }
 } 
+@media only screen and (max-width:400px){
+  .pages{
+    font-size: 1.2rem;
+  }
+} 
+@media only screen and (max-width:280px){
+  .pages{
+    font-size: 1.1rem;
+  }
+} 
+
