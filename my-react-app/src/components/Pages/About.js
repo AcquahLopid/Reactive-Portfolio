@@ -35,22 +35,42 @@ const About = () => {
     <br/>
     <div className="lang">
     <img src={lineBar} alt="blue line"/>
-    <h3><em>Languages</em></h3>
+    <h3>Languages</h3>
     <img src={lineBar} alt="blue line"/>
     </div>
-    <div className="imageGrid">
+    <div id="grid">
       <div>
         <img src={Html5} alt="Html5 logo"/>
-        <p className="">Html5</p>
+        <figcaption>Html5</figcaption>
       </div>
-      <img src={Html5} alt="Html5 logo"/>
-      <img src={Html5} alt="Html5 logo"/>
-      <img src={Html5} alt="Html5 logo"/>
-      <img src={Html5} alt="Html5 logo"/>
-      <img src={Html5} alt="Html5 logo"/>
-      <img src={Html5} alt="Html5 logo"/>
-      <img src={Html5} alt="Html5 logo"/>
-      <img src={Html5} alt="Html5 logo"/>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Html5</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Html5</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Html5</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Html5</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Html5</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Html5</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Html5</figcaption>
+      </div>
     </div>
     </>
   );

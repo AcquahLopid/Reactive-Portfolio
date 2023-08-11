@@ -12,7 +12,7 @@ html, body{
   display: flex;
   flex-direction: row;
   border-style: hidden hidden solid hidden;
-  padding-top: 60%;
+  padding-top: 40%;
 }
 
 .pictureTitle{
@@ -43,16 +43,15 @@ html, body{
   
 }
 
-.imageGrid{
+#grid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(6, 45%);
-  grid-template-rows: repeat(3, 60%);;
+  grid-template-columns: repeat(8, 20%);
+  grid-template-rows: repeat(1, 30%);;
 }
 
-@media only screen and (max-width:1322px){
-  .imageGrid, img{
-    width: 70%;
-    padding-left: 10%;
-  }
- }
+#grid, img {
+  width: 70%;
+  font-size: 68%;
+}
+
