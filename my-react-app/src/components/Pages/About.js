@@ -32,8 +32,12 @@ const About = () => {
           </p>
       </div>
     </section>
+
+
     <br/>
-    <div className="lang">
+
+
+    <div className="skills">
     <img src={lineBar} alt="blue line"/>
     <h3>Languages</h3>
     <img src={lineBar} alt="blue line"/>
@@ -45,23 +49,119 @@ const About = () => {
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Html5</figcaption>
+        <figcaption>CSS</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Html5</figcaption>
+        <figcaption>ES6</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Html5</figcaption>
+        <figcaption>JSX</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Html5</figcaption>
+        <figcaption>JSON</figcaption>
+      </div>
+    </div>
+
+
+    <br/>
+
+
+    <div className="skills">
+    <img src={lineBar} alt="blue line"/>
+    <h3>DataBases</h3>
+    <img src={lineBar} alt="blue line"/>
+    </div>
+    <div id="grid">
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>MySQL</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Html5</figcaption>
+        <figcaption>MongoDB</figcaption>
+      </div>
+    </div>
+
+
+    <br/>
+
+
+    <div className="skills">
+    <img src={lineBar} alt="blue line"/>
+    <h3>Frameworks</h3>
+    <img src={lineBar} alt="blue line"/>
+    </div>
+    <div id="grid">
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Bootstrap</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>jQuery</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Node.js</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Express.js</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Handlebars.js</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>React</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Redux</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Apollo GraphQL</figcaption>
+      </div>
+    </div>
+
+
+    <br/>
+
+
+    <div className="skills">
+    <img src={lineBar} alt="blue line"/>
+    <h3>Tools</h3>
+    <img src={lineBar} alt="blue line"/>
+    </div>
+    <div id="grid">
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Commd Line</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Dev Tools</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Git</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>GitHub</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>indexDB</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>Insomnia /Postman</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>

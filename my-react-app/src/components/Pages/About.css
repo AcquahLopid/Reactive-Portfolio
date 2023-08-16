@@ -12,7 +12,7 @@ html, body{
   display: flex;
   flex-direction: row;
   border-style: hidden hidden solid hidden;
-  padding-top: 40%;
+  padding-top: 90%;
 }
 
 .pictureTitle{
@@ -36,7 +36,7 @@ html, body{
   font-size: 70%;
 }
 /* ------------------------------------------------------------------------------------------ */
-.lang{
+.skills{
   display: flex;
   flex-direction: row;
   justify-content: center;
