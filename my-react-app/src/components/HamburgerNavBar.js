@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import styled, {keyframes} from "styled-components";
-import Github from "./Assets/github (1).png";
+import Github from "./Assets/githubLogo.png";
 import Linkedin from "./Assets/linkedin.png";
 import Medium from "./Assets/medium.png";
 
@@ -130,6 +130,7 @@ const ListLink = styled(NavLink)`
 const LogoLinks = styled.li`
     justify-content: center;
     align-items: center;
+    padding: 10px
     `;
 
     const bounceAnimation = keyframes`
@@ -149,9 +150,9 @@ const LogoLinks = styled.li`
         }
     `; 
 const LogoImg = styled.img`
-    width: 40px; 
-    height: 40px; 
-    padding: 20px;
+    width: 60px; 
+    height: 60px; 
+    padding: 10px;
     &:hover {
         animation: ${bounceAnimation} 1s infinite;
     }
