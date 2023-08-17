@@ -42,7 +42,7 @@ const About = () => {
     <h3>Languages</h3>
     <img src={lineBar} alt="blue line"/>
     </div>
-    <div id="grid">
+    <div id="langGrid">
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>Html5</figcaption>
@@ -74,7 +74,7 @@ const About = () => {
     <h3>DataBases</h3>
     <img src={lineBar} alt="blue line"/>
     </div>
-    <div id="grid">
+    <div id="DatabaseGrid">
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>MySQL</figcaption>
@@ -94,7 +94,7 @@ const About = () => {
     <h3>Frameworks</h3>
     <img src={lineBar} alt="blue line"/>
     </div>
-    <div id="grid">
+    <div id="FrameworkGrid">
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>Bootstrap</figcaption>

@@ -43,10 +43,28 @@ html, body{
   
 }
 
+#langGrid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(5, 23%);
+  grid-template-rows: repeat(1, 30%);
+}
+#DatabaseGrid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2, 23%);
+  grid-template-rows: repeat(1, 30%);
+}
+#FrameworkGrid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(5, 23%);
+  grid-template-rows: repeat(2, 60%);
+}
 #grid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(6, 80%);
+  grid-template-columns: repeat(5, 23%);
   grid-template-rows: repeat(2, 60%);
 }
 
@@ -55,3 +73,9 @@ html, body{
   font-size: 60%;
 }
 
+/* @media only screen and (max-width:1322px){
+  .pages{
+    font-size: 3.5rem;
+    padding-top: 1px;
+  }
+ } */

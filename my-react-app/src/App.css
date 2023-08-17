@@ -3,24 +3,24 @@ html{
 }
 
 body{
-  height: 200vh;
-
+  height: 100vh;
+  
   background: #136a8a;   /*fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #267871,
     #136a8a
     );  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #267871,
-    #136a8a
+    background: linear-gradient(
+      to right,
+      #267871,
+      #136a8a
       ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  color: black
-}
-
-.pages{
+      
+      color: black
+    }
+    
+  .pages{    
   position: absolute;
   left: 40%;
   top: 40%;
@@ -28,10 +28,11 @@ body{
   font-size: 5rem;
 }
 
-.scroll{
+/* .scroll{
   padding: 12px;
   height: 2000px;
-}
+} */
+
 
 
  @media only screen and (max-width:1322px){
