@@ -1,9 +1,29 @@
 import React from "react";
 import "../Pages/About.css";
 import myPicture from "../Assets/Emanuel-blossom.jpg";
-import Html5 from "../Assets/html5.png";
 import lineBar from "../Assets/pngwing.png";
+
+// Language pictures import
+import Html5 from "../Assets/html5.png";
 import CSS from "../Assets/cssLogo.png";
+import ES6 from "../Assets/javascriptES6.png";
+
+// Database pictures import
+import mySQL from "../Assets/mysql.png";
+import MongoDB from "../Assets/MongoDB.png";
+
+// Framework/library pictures import
+import Bootstrap from "../Assets/bootstrap.png";
+import JQuery from "../Assets/JQuery.png";
+import Nodejs from "../Assets/nodejs.png";
+import Expressjs from "../Assets/Expressjs.png";
+import HandleBarsjs from "../Assets/HandleBarsjs.png";
+import ReactLogo from "../Assets/react.png";
+import Redux from "../Assets/redux.png";
+import ApolloGraphQL from "../Assets/ApolloGraphQL.png";
+import HandleBarsjs from "../Assets/HandleBarsjs.png";
+
+// Tools pictures import
 
 const About = () => {
   return (
@@ -54,17 +74,17 @@ const About = () => {
         <figcaption>CSS</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>ES6</figcaption>
+        <img src={ES6} alt="Html5 logo"/>
+        <figcaption>Javascript</figcaption>
       </div>
-      <div>
+      {/* <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>JSX</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>JSON</figcaption>
-      </div>
+      </div> */}
     </div>
 
 
@@ -78,14 +98,34 @@ const About = () => {
     </div>
     <div id="DatabaseGrid">
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={mySQL} alt="Html5 logo"/>
         <figcaption>MySQL</figcaption>
+      </div>
+      <div>
+        <img src={MongoDB} alt="Html5 logo"/>
+        <figcaption>MongoDB</figcaption>
+      </div>
+    </div>
+
+{/* 
+    <br/>
+
+
+    <div className="skills">
+    <img src={lineBar} alt="blue line"/>
+    <h3>Libraries</h3>
+    <img src={lineBar} alt="blue line"/>
+    </div>
+    <div id="LibraryGrid">
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>React</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>MongoDB</figcaption>
       </div>
-    </div>
+    </div> */}
 
 
     <br/>
@@ -98,38 +138,38 @@ const About = () => {
     </div>
     <div id="FrameworkGrid">
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={Bootstrap} alt="Html5 logo"/>
         <figcaption>Bootstrap</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>jQuery</figcaption>
+        <img src={JQuery} alt="Html5 logo"/>
+        <figcaption>jQuery</figcaption> {/* Library */}
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Node.js</figcaption>
+        <img src={Nodejs} alt="Html5 logo"/>
+        <figcaption>Node.js</figcaption> {/* Tool */}
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={Expressjs} alt="Html5 logo"/>
         <figcaption>Express.js</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={HandleBarsjs} alt="Html5 logo"/>
         <figcaption>Handlebars.js</figcaption>
       </div>
 
     </div>
     <div id="FrameworkGrid">
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={ReactLogo} alt="Html5 logo"/>
         <figcaption>React</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={Redux} alt="Html5 logo"/>
         <figcaption>Redux</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={ApolloGraphQL} alt="Html5 logo"/>
         <figcaption>Apollo GraphQL</figcaption>
       </div>
     </div>
