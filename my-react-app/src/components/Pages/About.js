@@ -2,18 +2,20 @@ import React from "react";
 import "../Pages/About.css";
 import myPicture from "../Assets/Emanuel-blossom.jpg";
 import Html5 from "../Assets/html5.png";
-import lineBar from "../Assets/pngwing.png"
+import lineBar from "../Assets/pngwing.png";
+import CSS from "../Assets/cssLogo.png";
 
 const About = () => {
   return (
     <>
+<div className="MainContainer">
     <section className="container"> 
       <div className="pictureTitle">
         <img src={myPicture} alt="Emanuel Molina" className="myPicture" />
         <h1 className="title">Full Stack Developer</h1>
       </div>
       <div className="aboutText">
-          <h2>About Me</h2>
+          <h2><strong>About Me</strong></h2>
           <p className="aboutP">
             As a passionate and dedicated developer, I went through an intensive journey 
             to enhance my skills and advance my career through a bootcamp
@@ -38,9 +40,9 @@ const About = () => {
 
 
     <div className="skills">
-    <img src={lineBar} alt="blue line"/>
+    {/* <img src={lineBar} alt="blue line"/> */}
     <h3>Languages</h3>
-    <img src={lineBar} alt="blue line"/>
+    {/* <img src={lineBar} alt="blue line"/> */}
     </div>
     <div id="langGrid">
       <div>
@@ -48,7 +50,7 @@ const About = () => {
         <figcaption>Html5</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={CSS} alt="Html5 logo"/>
         <figcaption>CSS</figcaption>
       </div>
       <div>
@@ -115,6 +117,9 @@ const About = () => {
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>Handlebars.js</figcaption>
       </div>
+
+    </div>
+    <div id="FrameworkGrid">
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>React</figcaption>
@@ -138,7 +143,7 @@ const About = () => {
     <h3>Tools</h3>
     <img src={lineBar} alt="blue line"/>
     </div>
-    <div id="grid">
+    <div id="ToolsGrid">
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>Commd Line</figcaption>
@@ -159,19 +164,32 @@ const About = () => {
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>indexDB</figcaption>
       </div>
+    </div>
+
+
+    <div id="ToolsGrid">
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>Insomnia /Postman</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Html5</figcaption>
+        <figcaption>AJAX</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Html5</figcaption>
+        <figcaption>Fetch</figcaption>
+      </div>
+      <div>
+        <img src={Html5} alt="Html5 logo"/>
+        <figcaption>JWT</figcaption>
       </div>
     </div>
+
+    <br></br>
+
+
+</div>
     </>
   );
 };

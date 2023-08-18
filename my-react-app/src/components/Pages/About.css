@@ -3,6 +3,10 @@ html, body{
   padding: 0;
 }
 
+.MainContainer{
+  padding-top: 120%;
+}
+
 .myPicture{
   width: 150%;
   border-radius: 50%;
@@ -12,28 +16,31 @@ html, body{
   display: flex;
   flex-direction: row;
   border-style: hidden hidden solid hidden;
-  padding-top: 80%;
+  width: 110%;
 }
 
 .pictureTitle{
-  padding-right: 20%;
+  padding-right: 25%;
   padding-bottom: 15%;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 .title{
   align-items: center;
   font-size: 50%;
   white-space: nowrap;
-  padding-left: 25%;
+  padding-top: 5%;
+  padding-left: 35%;
 }
 
 .aboutText{
   font-size: 50%;
-  padding-top: 5%;
+  padding-top: 10%;
+  width: 250%;
 }
 
 .aboutP{
-  font-size: 70%;
+  padding-top: 4%;
+  font-size: 75%;
 }
 /* ------------------------------------------------------------------------------------------ */
 .skills{
@@ -46,36 +53,55 @@ html, body{
 #langGrid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(5, 23%);
+  grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(1, 30%);
+}
+#langGrid {
+  font-size: 50%;
+  text-align: center;
+  
 }
 #DatabaseGrid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(2, 23%);
+  grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(1, 30%);
+}
+#DatabaseGrid {
+  font-size: 50%;
+  text-align: center;
+  
 }
 #FrameworkGrid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(5, 23%);
-  grid-template-rows: repeat(2, 60%);
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(1, 30%);
 }
-#grid {
+#FrameworkGrid {
+  font-size: 50%;
+  text-align: center;
+  
+}
+#ToolsGrid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(5, 23%);
-  grid-template-rows: repeat(2, 60%);
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(1, 30%);
+}
+#ToolsGrid {
+  font-size: 50%;
+  text-align: center;
+  
 }
 
 #grid, img {
   width: 40%;
   font-size: 60%;
 }
-
-/* @media only screen and (max-width:1322px){
-  .pages{
-    font-size: 3.5rem;
-    padding-top: 1px;
+/* 
+@media only screen and (max-width:1050px){
+  .box{
+    font-size: 40%;
   }
  } */
