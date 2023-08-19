@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import styled, {keyframes} from "styled-components";
+
+//Navbar logos
 import Github from "./Assets/githubLogo.png";
 import Linkedin from "./Assets/linkedin.png";
 import Medium from "./Assets/medium.png";
@@ -183,17 +185,17 @@ function HamburgerNav() {
                 <List>
                     <li>
                         <ListLink onClick={handleClick} to = "/">
-                            Home
-                        </ListLink>
-                    </li>
-                    <li>
-                        <ListLink onClick={handleClick} to = "/about">
                             About
                         </ListLink>
                     </li>
                     <li>
                         <ListLink onClick={handleClick} to = "/portfolio">
                             Portfolio
+                        </ListLink>
+                    </li>
+                    <li>
+                        <ListLink onClick={handleClick} to = "/resume">
+                            Resume
                         </ListLink>
                     </li>
                     <li>

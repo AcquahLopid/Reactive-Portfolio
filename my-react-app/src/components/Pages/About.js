@@ -21,7 +21,7 @@ import HandleBarsjs from "../Assets/HandleBarsjs.png";
 import ReactLogo from "../Assets/react.png";
 import Redux from "../Assets/redux.png";
 import ApolloGraphQL from "../Assets/ApolloGraphQL.png";
-import HandleBarsjs from "../Assets/HandleBarsjs.png";
+// import HandleBarsjs from "../Assets/HandleBarsjs.png";
 
 // Tools pictures import
 

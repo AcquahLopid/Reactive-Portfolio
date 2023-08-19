@@ -16,7 +16,8 @@ html, body{
   display: flex;
   flex-direction: row;
   border-style: hidden hidden solid hidden;
-  width: 110%;
+  width: 150%;
+  margin-left: -12%;
 }
 
 .pictureTitle{
@@ -28,8 +29,8 @@ html, body{
   align-items: center;
   font-size: 50%;
   white-space: nowrap;
-  padding-top: 5%;
-  padding-left: 35%;
+  padding-top: 10%;
+  padding-left: 28%;
 }
 
 .aboutText{
