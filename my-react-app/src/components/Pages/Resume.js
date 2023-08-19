@@ -8,7 +8,7 @@ const Resume = () => {
     <br/>
       <CodeThinking/>
     <div>
-
+    
     </div>
     </>
   );

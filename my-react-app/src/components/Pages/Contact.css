@@ -1,4 +1,4 @@
-/* .contact-form {
+.contact-form {
     max-width: 400px;
     margin: 0 auto;
   }
@@ -77,14 +77,15 @@
     font-size: 14px; 
     margin-top: -8px; 
     margin-bottom: 16px; 
-  } */ 
+  } 
+  
   /* NEEDS SECURITY FOR MY FORM SUBMISSION FUTURE UPDATE */
 
   /* Contact.css */
 
 /* Contact.css */
 
-.contact-section {
+/* .contact-section {
     padding: 40px 0;
     text-align: center;
   }
@@ -124,4 +125,4 @@
   .contact-info a:hover i {
     color: #ff6b6b;
   }
-  
+   */
