@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import Emojify from "../Assets/Emojify project.png"
+import Emojify from "../Assets/Emojify project.png";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap/dist/css/bootstrap.min.css";
 

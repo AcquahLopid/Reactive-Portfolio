@@ -87,7 +87,7 @@ function Contact() {
   return (
     <section id="reach-out" className="contact">
       <div className="contact-form">
-        <h3>Contact Me</h3>
+        <h1>Contact Me</h1>
         <form className="form">
           <label htmlFor="contact-name">Name</label>
           <input
@@ -135,58 +135,10 @@ function Contact() {
             Submit
           </button>
         </form>
+          <br></br>
       </div>
     </section>
   );
 }
 
 export default Contact;
-
-// NEEDS SECURITY FOR MY NODEMAILER FUTURE UPDATE!!
-
-// import React from "react";
-// import "./Contact.css"; // Add your own CSS file for styling
-
-// const Contact = () => {
-//   const email = "Emanuel.Molina2k@gmail.com";
-//   const githubUrl = "https://github.com/your-github-username";
-//   const linkedinUrl = "https://www.linkedin.com/in/your-linkedin-username";
-//   const phoneNumber = "501-641-8910";
-
-//   return (
-//     <>
-//       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></link>
-//       <section id="contact" className="contact-section">
-//         <h2>Contact</h2>
-//         <div className="contact-info">
-//           <p>
-//             <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-//               <i className="fab fa-github"></i>
-//               GitHub
-//             </a>
-//           </p>
-//           <p>
-//             <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
-//               <i className="fab fa-linkedin"></i>
-//               LinkedIn
-//             </a>
-//           </p>
-//           {phoneNumber && (
-//             <p>
-//               <i className="fas fa-phone-alt"></i>
-//               {phoneNumber}
-//             </p>
-//           )}
-//           <p>
-//             <a href={`mailto:${email}`}>
-//               <i className="fas fa-envelope"></i>
-//               {email}
-//             </a>
-//           </p>
-//         </div>
-//       </section>
-//     </>
-//   );
-// };
-
-// export default Contact;
