@@ -9,6 +9,10 @@ li{
    height: 113%;
 }
 
+.portfolio-container h1{
+  font-family: serif;
+}
+
 @media only screen and (max-width:767px){
     .portfolio-container{
       font-size: 3.5rem;

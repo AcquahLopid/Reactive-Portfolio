@@ -109,7 +109,7 @@ function Contact() {
             onChange={handleInputChange}
             type="email"
             id="contact-email"
-            placeholder="Your Email"
+            placeholder="Example@Gmail.com"
           />
           {errorMessages.email && (
             <p className="error-text">{errorMessages.email}</p>

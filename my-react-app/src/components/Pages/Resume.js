@@ -5,11 +5,14 @@ import {ReactComponent as CodeThinking} from "../Assets/CodeThinking.svg"
 const Resume = () => {
   return (
     <>
-    <br/>
-      <CodeThinking/>
+    <section>
+
+    {/* <br/>
+      <CodeThinking/> */}
     <div>
-    
+    <p>Hello</p>
     </div>
+    </section>
     </>
   );
 };

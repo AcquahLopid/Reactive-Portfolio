@@ -6,7 +6,8 @@
 
   .contact-form h1 {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 900;
+    font-family: serif;
     letter-spacing: 0;
     line-height: 1.5em;
     padding-bottom: 15px;
@@ -20,7 +21,7 @@
     bottom: 0;
     height: 5px;
     width: 60px;
-    background-color: #111;
+    background-color: #007bff;
   }
 
   .contact-form h1:after {
@@ -31,20 +32,23 @@
     height: 1px;
     width: 95%;
     max-width: 2550px;
-    background-color: #333;
+    background-color: #007bff;
   }
   
   .contact-form label {
     display: block;
     margin-bottom: 8px;
+    font-family: sans-serif;
   }
   
   .contact-form input,
   .contact-form textarea {
-    width: 145%;
+    width: 148%;
+    /* height: 100%; */
     padding: 8px;
-    margin-bottom: 16px;
-    background-color: antiquewhite;
+    margin-bottom: 30px;
+    background-color: #F5F5F5;
+    font-family: Trebuchet MS, sans-serif;
   }
   
   .contact-form textarea {
@@ -114,6 +118,6 @@
 .error-text {
     color: #e74c3c; 
     font-size: 14px; 
-    margin-top: -8px; 
+    margin-top: -30px; 
     margin-bottom: 16px; 
   } 
