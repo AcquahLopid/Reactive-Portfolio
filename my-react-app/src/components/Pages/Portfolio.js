@@ -8,8 +8,10 @@ const Portfolio = () => {
 
     return (
         <>
+    <div class="ProjectSec">
+    <h1>Projects</h1>
+    </div>
 <div className="portfolio-container">
-    <h1 className="text-center"> Projects </h1>
     <br></br>
     <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">

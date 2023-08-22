@@ -4,7 +4,7 @@ html, body{
 }
 
 .MainContainer{
-  padding-top: 120%;
+  padding-top: 100%;
 }
 
 .myPicture{
@@ -16,12 +16,13 @@ html, body{
   display: flex;
   flex-direction: row;
   border-style: hidden hidden solid hidden;
-  width: 150%;
+  border-radius: 5%;
+  width: 137%;
   margin-left: -12%;
 }
 
 .pictureTitle{
-  padding-right: 25%;
+  padding-right: 22%;
   padding-bottom: 15%;
   padding-top: 10%;
 }
@@ -31,6 +32,7 @@ html, body{
   white-space: nowrap;
   padding-top: 10%;
   padding-left: 28%;
+  font-family: serif;
 }
 
 .aboutText{
@@ -39,22 +41,24 @@ html, body{
   width: 250%;
 }
 
+.aboutText h2{
+  font-size: larger;
+  font-family: serif;
+}
+
 .aboutP{
   padding-top: 4%;
   font-size: 75%;
 }
 /* ------------------------------------------------------------------------------------------ */
-.skills{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
-}
 
+.EmanuelSkills{
+  width: 110%;
+}
 #langGrid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(5, 20%);
+  grid-template-columns: repeat(5, 21%);
   grid-template-rows: repeat(1, 30%);
 }
 #langGrid {
@@ -65,7 +69,7 @@ html, body{
 #DatabaseGrid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(5, 20%);
+  grid-template-columns: repeat(5, 21%);
   grid-template-rows: repeat(1, 30%);
 }
 #DatabaseGrid {
@@ -76,7 +80,7 @@ html, body{
 #FrameworkGrid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(5, 20%);
+  grid-template-columns: repeat(5, 21%);
   grid-template-rows: repeat(1, 30%);
 }
 #FrameworkGrid {
@@ -87,7 +91,7 @@ html, body{
 #ToolsGrid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(5, 20%);
+  grid-template-columns: repeat(5, 21%);
   grid-template-rows: repeat(1, 30%);
 }
 #ToolsGrid {
@@ -100,6 +104,36 @@ html, body{
   width: 40%;
   font-size: 60%;
 }
+
+/* .skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+.skills h3 {
+  text-align: center;
+  font-size:30px; font-weight:300; color:#222; letter-spacing:2px;
+  text-transform: uppercase;
+  
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.skills h3:after,.skills h3:before {
+      content: " ";
+      display: block;
+      border-bottom: 2px solid #c50000;
+      border-top:2px solid #c50000;
+      height: 10px;
+    /* background-color:#f8f8f8; */
+  }
+  
+
+
 /* 
 @media only screen and (max-width:1050px){
   .box{

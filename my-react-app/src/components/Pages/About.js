@@ -1,7 +1,6 @@
 import React from "react";
 import "../Pages/About.css";
 import myPicture from "../Assets/Emanuel-blossom.jpg";
-import lineBar from "../Assets/pngwing.png";
 
 // Language pictures import
 import Html5 from "../Assets/html5.png";
@@ -67,12 +66,13 @@ const About = () => {
 
     <br/>
 
+
+<div className="EmanuelSkills">
 {/* Languages section */}
     <div className="skills">
-    {/* <img src={lineBar} alt="blue line"/> */}
     <h3>Languages</h3>
-    {/* <img src={lineBar} alt="blue line"/> */}
     </div>
+    <br/>
     <div id="langGrid">
       <div>
         <img src={Html5} alt="Html5 logo"/>
@@ -101,9 +101,7 @@ const About = () => {
 
 {/* Databases Section */}
     <div className="skills">
-    <img src={lineBar} alt="blue line"/>
     <h3>DataBases</h3>
-    <img src={lineBar} alt="blue line"/>
     </div>
     <div id="DatabaseGrid">
       <div>
@@ -118,32 +116,30 @@ const About = () => {
 
 {/* 
     <br/>
-
-
+    
+    
     <div className="skills">
     <img src={lineBar} alt="blue line"/>
     <h3>Libraries</h3>
     <img src={lineBar} alt="blue line"/>
     </div>
     <div id="LibraryGrid">
-      <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>React</figcaption>
-      </div>
+    <div>
+    <img src={Html5} alt="Html5 logo"/>
+    <figcaption>React</figcaption>
+    </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>MongoDB</figcaption>
-      </div>
-    </div> */}
+        </div>
+      </div> */}
 
 
     <br/>
 
 {/* Frameworks section */}
     <div className="skills">
-    <img src={lineBar} alt="blue line"/>
     <h3>Frameworks</h3>
-    <img src={lineBar} alt="blue line"/>
     </div>
     <div id="FrameworkGrid">
       <div>
@@ -190,9 +186,7 @@ const About = () => {
 
 {/* Tools Section */}
     <div className="skills">
-    <img src={lineBar} alt="blue line"/>
     <h3>Tools</h3>
-    <img src={lineBar} alt="blue line"/>
     </div>
     <div id="ToolsGrid">
       <div>
@@ -233,8 +227,8 @@ const About = () => {
       {/* <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>Fetch</figcaption>
-      </div>
-      <div>
+        </div>
+        <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>JWT</figcaption>
       </div> */}
@@ -243,6 +237,7 @@ const About = () => {
     <br></br>
 
 
+      </div>
 </div>
     </>
   );
