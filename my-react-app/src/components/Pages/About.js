@@ -7,6 +7,8 @@ import lineBar from "../Assets/pngwing.png";
 import Html5 from "../Assets/html5.png";
 import CSS from "../Assets/cssLogo.png";
 import ES6 from "../Assets/javascriptES6.png";
+import Cplusplus from "../Assets/C++.png";
+import Java from "../Assets/Java.png";
 
 // Database pictures import
 import mySQL from "../Assets/mysql.png";
@@ -21,9 +23,16 @@ import HandleBarsjs from "../Assets/HandleBarsjs.png";
 import ReactLogo from "../Assets/react.png";
 import Redux from "../Assets/redux.png";
 import ApolloGraphQL from "../Assets/ApolloGraphQL.png";
-// import HandleBarsjs from "../Assets/HandleBarsjs.png";
 
 // Tools pictures import
+import CommdLine from "../Assets/command-line.png";
+import DevTools from "../Assets/Dev-Tools.png";
+import Git from "../Assets/git.png";
+import GitHub from "../Assets/github (1).png";
+import Insomnia from "../Assets/Insomnia.png"
+import Postman from "../Assets/Postman.webp"
+import Ajax from "../Assets/ajax-logo-1.png";
+
 
 const About = () => {
   return (
@@ -58,7 +67,7 @@ const About = () => {
 
     <br/>
 
-
+{/* Languages section */}
     <div className="skills">
     {/* <img src={lineBar} alt="blue line"/> */}
     <h3>Languages</h3>
@@ -70,27 +79,27 @@ const About = () => {
         <figcaption>Html5</figcaption>
       </div>
       <div>
-        <img src={CSS} alt="Html5 logo"/>
+        <img src={CSS} alt="Css logo"/>
         <figcaption>CSS</figcaption>
       </div>
       <div>
-        <img src={ES6} alt="Html5 logo"/>
+        <img src={ES6} alt="Javascript logo"/>
         <figcaption>Javascript</figcaption>
       </div>
-      {/* <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>JSX</figcaption>
+      <div>
+        <img src={Java} alt="Java logo"/>
+        <figcaption>Java</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>JSON</figcaption>
-      </div> */}
+        <img src={Cplusplus} alt="C++ logo"/>
+        <figcaption>C++</figcaption>
+      </div>
     </div>
 
 
     <br/>
 
-
+{/* Databases Section */}
     <div className="skills">
     <img src={lineBar} alt="blue line"/>
     <h3>DataBases</h3>
@@ -98,11 +107,11 @@ const About = () => {
     </div>
     <div id="DatabaseGrid">
       <div>
-        <img src={mySQL} alt="Html5 logo"/>
+        <img src={mySQL} alt="mySQL logo"/>
         <figcaption>MySQL</figcaption>
       </div>
       <div>
-        <img src={MongoDB} alt="Html5 logo"/>
+        <img src={MongoDB} alt="MongoDB logo"/>
         <figcaption>MongoDB</figcaption>
       </div>
     </div>
@@ -130,7 +139,7 @@ const About = () => {
 
     <br/>
 
-
+{/* Frameworks section */}
     <div className="skills">
     <img src={lineBar} alt="blue line"/>
     <h3>Frameworks</h3>
@@ -138,38 +147,40 @@ const About = () => {
     </div>
     <div id="FrameworkGrid">
       <div>
-        <img src={Bootstrap} alt="Html5 logo"/>
+        <img src={Bootstrap} alt="Bootstrap logo"/>
         <figcaption>Bootstrap</figcaption>
       </div>
       <div>
-        <img src={JQuery} alt="Html5 logo"/>
+        <img src={JQuery} alt="JQuery logo"/>
         <figcaption>jQuery</figcaption> {/* Library */}
       </div>
       <div>
-        <img src={Nodejs} alt="Html5 logo"/>
+        <img src={Nodejs} alt="Node.js logo"/>
         <figcaption>Node.js</figcaption> {/* Tool */}
       </div>
       <div>
-        <img src={Expressjs} alt="Html5 logo"/>
+        <img src={Expressjs} alt="Expressionjs logo"/>
         <figcaption>Express.js</figcaption>
       </div>
       <div>
-        <img src={HandleBarsjs} alt="Html5 logo"/>
+        <img src={HandleBarsjs} alt="HandleBars.js logo"/>
         <figcaption>Handlebars.js</figcaption>
       </div>
-
     </div>
+
+      <br/>
+
     <div id="FrameworkGrid">
       <div>
-        <img src={ReactLogo} alt="Html5 logo"/>
+        <img src={ReactLogo} alt="React logo"/>
         <figcaption>React</figcaption>
       </div>
       <div>
-        <img src={Redux} alt="Html5 logo"/>
+        <img src={Redux} alt="Redux logo"/>
         <figcaption>Redux</figcaption>
       </div>
       <div>
-        <img src={ApolloGraphQL} alt="Html5 logo"/>
+        <img src={ApolloGraphQL} alt="Apollo GraphQL logo"/>
         <figcaption>Apollo GraphQL</figcaption>
       </div>
     </div>
@@ -177,7 +188,7 @@ const About = () => {
 
     <br/>
 
-
+{/* Tools Section */}
     <div className="skills">
     <img src={lineBar} alt="blue line"/>
     <h3>Tools</h3>
@@ -185,45 +196,48 @@ const About = () => {
     </div>
     <div id="ToolsGrid">
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={CommdLine} alt="Command Line logo"/>
         <figcaption>Commd Line</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={DevTools} alt="Developer Tools logo"/>
         <figcaption>Dev Tools</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={Git} alt="Git logo"/>
         <figcaption>Git</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={GitHub} alt="GitHub logo"/>
         <figcaption>GitHub</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>indexDB</figcaption>
+        <img src={Postman} alt="Postman logo"/>
+        <figcaption>Postman</figcaption>
       </div>
     </div>
 
 
+    <br/>
+
+
     <div id="ToolsGrid">
       <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Insomnia /Postman</figcaption>
+        <img src={Insomnia} alt="Insomina logo"/>
+        <figcaption>Insomnia</figcaption>
       </div>
       <div>
-        <img src={Html5} alt="Html5 logo"/>
+        <img src={Ajax} alt="Ajax logo"/>
         <figcaption>AJAX</figcaption>
       </div>
-      <div>
+      {/* <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>Fetch</figcaption>
       </div>
       <div>
         <img src={Html5} alt="Html5 logo"/>
         <figcaption>JWT</figcaption>
-      </div>
+      </div> */}
     </div>
 
     <br></br>

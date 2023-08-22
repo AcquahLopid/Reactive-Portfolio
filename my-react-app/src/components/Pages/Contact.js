@@ -135,8 +135,8 @@ function Contact() {
             Submit
           </button>
         </form>
-          <br></br>
       </div>
+          <br></br>
     </section>
   );
 }
