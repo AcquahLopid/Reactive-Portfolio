@@ -97,6 +97,7 @@ function Contact() {
             type="text"
             id="contact-name"
             placeholder="Your Name"
+            className="smaller-font"
           />
           {errorMessages.userName && (
             <p className="error-text">{errorMessages.userName}</p>
@@ -110,6 +111,7 @@ function Contact() {
             type="email"
             id="contact-email"
             placeholder="Example@Gmail.com"
+            className="smaller-font"
           />
           {errorMessages.email && (
             <p className="error-text">{errorMessages.email}</p>
@@ -122,6 +124,7 @@ function Contact() {
             onChange={handleInputChange}
             id="contact-message"
             placeholder="Your Message"
+            className="smaller-font"
           ></textarea>
           {errorMessages.message && (
             <p className="error-text">{errorMessages.message}</p>
@@ -136,7 +139,6 @@ function Contact() {
           </button>
         </form>
       </div>
-          <br></br>
     </section>
   );
 }

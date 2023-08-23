@@ -4,7 +4,8 @@ html, body{
 }
 
 .MainContainer{
-  padding-top: 100%;
+  padding-top: 120%;
+  color: white;
 }
 
 .myPicture{
@@ -16,7 +17,8 @@ html, body{
   display: flex;
   flex-direction: row;
   border-style: hidden hidden solid hidden;
-  border-radius: 5%;
+  line-height: 35px;
+  /* border-radius: 5%; */
   width: 137%;
   margin-left: -12%;
 }
@@ -24,7 +26,7 @@ html, body{
 .pictureTitle{
   padding-right: 22%;
   padding-bottom: 15%;
-  padding-top: 10%;
+  padding-top: 12%;
 }
 .title{
   align-items: center;
@@ -39,14 +41,18 @@ html, body{
   font-size: 50%;
   padding-top: 10%;
   width: 250%;
+  
 }
 
 .aboutText h2{
   font-size: larger;
-  font-family: serif;
+  /* text-align: center; */
+  font-size:30px; font-weight:500; color:white; letter-spacing:2px;
+  /* text-transform: uppercase; */
 }
 
 .aboutP{
+  text-align: justify;
   padding-top: 4%;
   font-size: 75%;
 }
@@ -113,7 +119,7 @@ html, body{
 
 .skills h3 {
   text-align: center;
-  font-size:30px; font-weight:300; color:#222; letter-spacing:2px;
+  font-size:30px; font-weight:300; color:white; letter-spacing:2px;
   text-transform: uppercase;
   
   display: grid;
@@ -126,8 +132,8 @@ html, body{
 .skills h3:after,.skills h3:before {
       content: " ";
       display: block;
-      border-bottom: 2px solid #c50000;
-      border-top:2px solid #c50000;
+      border-bottom: 2px solid #734b6d;
+      border-top:2px solid #42275a;
       height: 10px;
     /* background-color:#f8f8f8; */
   }

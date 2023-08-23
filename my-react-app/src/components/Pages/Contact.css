@@ -1,7 +1,6 @@
 .contact-form {
     max-width: 400px;
     margin: 0 auto;
-    padding-top: 50%;
   }
 
   .contact-form h1 {
@@ -39,6 +38,7 @@
     display: block;
     margin-bottom: 8px;
     font-family: sans-serif;
+    font-size: 30px;
   }
   
   .contact-form input,
@@ -53,15 +53,26 @@
   
   .contact-form textarea {
     resize: vertical;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     outline: none;
+    height: 200px;
   }
   
   .contact-form input {
-    border-radius: 20px;
+    /* border-radius: 20px; */
     outline: none;
+    height: 60px;
+  }
+
+  #contact-message::placeholder {
+    font-size: 25px; /* Adjust the font size as needed */
   }
   
+  .smaller-font {
+    font-size: 25px;
+
+  }
+
   .contact-form button {
     padding: 8px 16px;
     background-color: #007bff;

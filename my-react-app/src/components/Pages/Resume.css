@@ -1,0 +1,70 @@
+.Resume{
+    padding-top: 200%;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .profile-picture {
+    /* Style your profile picture here */
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  /* .contact-info {
+     Style your contact information here 
+  } */
+  
+  .resume-details {
+    width: 65%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  /* Add styles for your work experience, education, and other sections here */
+  
+  .resume-section {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
