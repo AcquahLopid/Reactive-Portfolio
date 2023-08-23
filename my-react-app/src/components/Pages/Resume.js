@@ -1,28 +1,35 @@
 import React from "react";
 import "./Resume.css";
-import { ReactComponent as CodeThinking } from "../Assets/CodeThinking.svg";
+import ResumePDF from "../Assets/EmanuelResume.pdf";
 
 const Resume = () => {
+  // const [resumeUrl, setResumeUrl] = useState(ResumePDF);
+
+  const handleDownload = () => {
+    // this Opens the resume PDF in a new tab for download
+    window.open(ResumePDF);
+  };
+
+
   return (
     <div className="Resume">
     <div className="resume-container">
       <div className="personal-info">
-        <div className="profile-picture">
-          {/* You can add your profile picture here */}
-          {/* <img src="your-profile-picture.jpg" alt="Profile" /> */}
-          <CodeThinking />
-        </div>
         <div className="contact-info">
-          <h2>Emanuel Molina</h2>
+          <h1>Emanuel Molina</h1>
           <p>+1 510 641 8910</p>
           <p>Emanuel.molina2k@gmail.com</p>
           <p>Bloomington, IL 61704</p>
           <p>Authorized to work in the US for any employer</p>
+            <button className="btn" onClick={handleDownload}><i className="fa fa-download"></i>
+              Download Resume
+            </button>
         </div>
       </div>
       <div className="resume-details">
         <section className="resume-section">
-          <h3>Summary</h3>
+          <h1><strong>Summary</strong></h1>
+          <hr/>
           <p>
             As an entry-level web developer, I'm eager to find a job where I can
             use my coding and design skills. I know both front-end and back-end
@@ -34,9 +41,10 @@ const Resume = () => {
           </p>
         </section>
         <section className="resume-section">
-          <h3>Work Experience</h3>
+          <h1><strong>Work Experience</strong></h1>
+          <hr/>
           <div className="resume-entry">
-            <h4>Assistant Manager</h4>
+            <h3>Assistant Manager</h3>
             <p className="resume-date">May 2021 - July 2023</p>
             <p>
               RIALTO CINEMAS - El Cerrito, CA
@@ -45,7 +53,7 @@ const Resume = () => {
               <br />
               - Resolved customer issues to their overall satisfaction
               <br />
-              - Wrote reports and counted money (safe, tills, deposits) daily
+              - Wrote reports and counted money (safe, tills, deposits, tips) daily
               <br />
               - Did inventory counts monthly and made orders for beer and wine
               <br />
@@ -58,7 +66,7 @@ const Resume = () => {
             </p>
           </div>
           <div className="resume-entry">
-            <h4>Stocker</h4>
+            <h3>Stocker</h3>
             <p className="resume-date">August 2018 - June 2019</p>
             <p>
               Grocery Outlet - Richmond, CA
@@ -83,47 +91,52 @@ const Resume = () => {
           </div>
         </section>
         <section className="resume-section">
-          <h3>Education</h3>
+          <h1>Education</h1>
+          <hr/>
           <div className="resume-entry">
-            <h4>Certification in Web Development</h4>
+            <h3>Certification in Web Development</h3>
             <p className="resume-date">March 2023 - June 2023</p>
             <p>UC Berkeley Extensions</p>
           </div>
           <div className="resume-entry">
-            <h4>High School Diploma</h4>
+            <h3>High School Diploma</h3>
             <p className="resume-date">June 2018</p>
             <p>El Cerrito High School - El Cerrito, CA</p>
           </div>
         </section>
         <section className="resume-section">
-          <h3>Skills</h3>
+          <h1>Skills</h1>
+          <hr/>
           <ul>
+
+            <li>Management</li>
+            <li>Shipping & Receiving</li>
+            <li>Microsoft Excel - 3 years</li>
+            <li>Microsoft Word</li>
+            <li>Full-stack development - 1 year</li>
             <li>JavaScript</li>
-            <li>Web Development</li>
+            <li>HTML5</li>
+            <li>CSS</li>
             <li>React</li>
             <li>REST</li>
-            <li>HTML5</li>
             <li>AJAX</li>
             <li>Git</li>
-            <li>Full-stack development - 1 year</li>
             <li>JSON</li>
             <li>Bootstrap</li>
-            <li>Microsoft Word</li>
-            <li>CSS</li>
-            <li>Shipping & Receiving</li>
             <li>MySQL</li>
             <li>APIs</li>
-            <li>Microsoft Excel - 3 years</li>
             <li>Node.js</li>
           </ul>
         </section>
         <section className="resume-section">
-          <h3>Languages</h3>
+          <h1>Languages</h1>
+          <hr/>
           <p>English - Expert</p>
           <p>Japanese - Intermediate</p>
         </section>
       </div>
     </div>
+    <br/>
   </div>
   );
 };
