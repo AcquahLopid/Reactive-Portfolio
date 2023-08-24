@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { validationEmail } from "../Utils/SubmissionValidation";
 import "./Contact.css";
+import GoToTop from '../Utils/GoToTop';
 
 function Contact() {
   const [message, setMessage] = useState("");
@@ -139,6 +140,7 @@ function Contact() {
           </button>
         </form>
       </div>
+    <GoToTop/>
     </section>
   );
 }

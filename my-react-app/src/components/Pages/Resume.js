@@ -1,6 +1,7 @@
 import React from "react";
 import "./Resume.css";
 import ResumePDF from "../Assets/EmanuelResume.pdf";
+import GoToTop from '../Utils/GoToTop';
 
 const Resume = () => {
   // const [resumeUrl, setResumeUrl] = useState(ResumePDF);
@@ -17,11 +18,11 @@ const Resume = () => {
       <div className="personal-info">
         <div className="contact-info">
           <h1>Emanuel Molina</h1>
-          <p>+1 510 641 8910</p>
+          <p>+1-510-641-8910</p>
           <p>Emanuel.molina2k@gmail.com</p>
           <p>Bloomington, IL 61704</p>
           <p>Authorized to work in the US for any employer</p>
-            <button className="btn" onClick={handleDownload}><i className="fa fa-download"></i>
+            <button id="btn" onClick={handleDownload}><i className="fa fa-download"></i>
               Download Resume
             </button>
         </div>
@@ -137,6 +138,7 @@ const Resume = () => {
       </div>
     </div>
     <br/>
+  <GoToTop/>
   </div>
   );
 };

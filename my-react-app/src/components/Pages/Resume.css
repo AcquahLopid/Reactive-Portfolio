@@ -3,6 +3,7 @@
     padding-top: 107%;
     width: 140%;
     margin-left: -13%;
+    text-align: justify;
 }
 
 /* style the download button */
@@ -11,9 +12,22 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    /* background-color: #f5f5f5; */
+    background-color: #f5f5f5;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+}
+#btn {
+    background-color:#734b6d;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: #42275a;
 }
 
 .personal-info {
@@ -26,27 +40,14 @@
     padding: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    /* background-image: url("../Assets/PurpleInfo.jpeg"); */
-    /* background-image: url("../Assets/Darkmountain.png"); */
 }
-/* 
+
 .personal-info h1{
-    padding-bottom: 50px;
-} */
-
-.btn {
-  background-color: purple;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-weight: 700;
 }
 
-.btn:hover {
-  background-color: #00610f;
-}
   /* .contact-info {
      Style your contact information here 
   } */
@@ -67,11 +68,11 @@
 
 .resume-section li {
     list-style-type: circle;
-    font-size: 20px;
+    font-size: 14px;
   }
   
   h1 {
-    font-size: 24px;
+    font-size: 25px;
     margin: 0;
   }
   
@@ -89,5 +90,6 @@
   ul {
     list-style-type: disc;
     margin-left: 20px;
+    
   }
   

@@ -1,6 +1,7 @@
 import React from "react";
 import "../Pages/About.css";
 import myPicture from "../Assets/Emanuel-blossom.jpg";
+import GoToTop from '../Utils/GoToTop';
 
 // Language pictures import
 import Html5 from "../Assets/html5.png";
@@ -238,6 +239,7 @@ const About = () => {
 
 
       </div>
+<GoToTop/>
 </div>
     </>
   );
