@@ -3,43 +3,12 @@ li{
     list-style: none;
 }
 
-.ProjectSec h1 {
-  font-size:30px;
-  text-align:center; 
-  line-height:1.5em; 
-  padding-bottom:5px; 
-  font-family:"Playfair Display", serif; 
-  text-transform:uppercase;
-  letter-spacing: 2px; 
-  color:#111;
-}
-.ProjectSec h1:before {
-  position: absolute;
-  left: 0;
-  bottom: 20px;
-  width: 60%;
-  left:50%; margin-left:-30%;
-  height: 1px;
-  content: "";
-  background-color: #777; z-index: 4;
-}
-.ProjectSec h1:after {
-  position:absolute;
-  width:40px; height:40px; left:50%; margin-left:-20px; bottom:0px;
-  content: '\00a7'; font-size:30px; line-height:40px; color:#c50000;
-  font-weight:400; z-index: 5;
-  display:block;
-  background-color:#f8f8f8;
-}
-
 .portfolio-container{
    padding-top: 300px;
-   width: 113%;
+   width: 140%;
    height: 113%;
+   margin-left: -13.5%;
 }
-
-
-
 
 @media only screen and (max-width:767px){
     .portfolio-container{
