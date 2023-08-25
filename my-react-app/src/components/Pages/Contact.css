@@ -1,5 +1,12 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+form{
+  width: 400px;
+}
 .contact-form {
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
   }
 
@@ -11,6 +18,7 @@
     line-height: 1.5em;
     padding-bottom: 15px;
     position: relative;
+    color: #42275a;
   }
 
   .contact-form h1:before {
@@ -20,7 +28,7 @@
     bottom: 0;
     height: 5px;
     width: 60px;
-    background-color: #007bff;
+    background-color: #734b6d;
   }
 
   .contact-form h1:after {
@@ -31,7 +39,7 @@
     height: 1px;
     width: 95%;
     max-width: 2550px;
-    background-color: #007bff;
+    background-color: #734b6d;
   }
   
   .contact-form label {
@@ -39,11 +47,12 @@
     margin-bottom: 8px;
     font-family: sans-serif;
     font-size: 30px;
+    color: #42275a;
   }
   
   .contact-form input,
   .contact-form textarea {
-    width: 148%;
+    width: 600px;
     /* height: 100%; */
     padding: 8px;
     margin-bottom: 30px;
@@ -65,7 +74,7 @@
   }
 
   #contact-message::placeholder {
-    font-size: 25px; /* Adjust the font size as needed */
+    font-size: 25px;
   }
   
   .smaller-font {
@@ -75,7 +84,7 @@
 
   .contact-form button {
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: #734b6d;
     color: black;
     border: none;
     cursor: pointer;
@@ -84,7 +93,7 @@
 .button-29 {
   align-items: center;
   appearance: none;
-  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  background-image: radial-gradient(100% 100% at 100% 0, #42275a 0, purple 100%);
   border: 0;
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -113,22 +122,22 @@
 }
 
 .button-29:focus {
-  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: #734b6d 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #734b6d 0 -3px 0 inset;
 }
 
 .button-29:hover {
-  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #734b6d 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
 .button-29:active {
-  box-shadow: #3c4fe0 0 3px 7px inset;
+  box-shadow: #734b6d 0 3px 7px inset;
   transform: translateY(2px);
 }
 
 .error-text {
     color: #e74c3c; 
-    font-size: 14px; 
+    font-size: 15px; 
     margin-top: -30px; 
-    margin-bottom: 16px; 
+    margin-bottom: 8px; 
   } 

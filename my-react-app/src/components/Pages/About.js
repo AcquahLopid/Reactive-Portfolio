@@ -22,7 +22,6 @@ import Expressjs from "../Assets/Expressjs.png";
 import HandleBarsjs from "../Assets/HandleBarsjs.png";
 import ReactLogo from "../Assets/react.png";
 import Redux from "../Assets/redux.png";
-import ApolloGraphQL from "../Assets/ApolloGraphQL.png";
 
 // Tools pictures import
 import CommdLine from "../Assets/command-line.png";
@@ -32,6 +31,8 @@ import GitHub from "../Assets/github (1).png";
 import Insomnia from "../Assets/Insomnia.png"
 import Postman from "../Assets/Postman.webp"
 import Ajax from "../Assets/ajax-logo-1.png";
+import GraphQL from "../Assets/GraphQL.png";
+import Apollo from "../Assets/Apollo.png";
 
 
 const About = () => {
@@ -104,6 +105,7 @@ const About = () => {
     <div className="skills">
     <h3>DataBases</h3>
     </div>
+    <br/>
     <div id="DatabaseGrid">
       <div>
         <img src={mySQL} alt="mySQL logo"/>
@@ -115,33 +117,15 @@ const About = () => {
       </div>
     </div>
 
-{/* 
-    <br/>
-    
-    
-    <div className="skills">
-    <img src={lineBar} alt="blue line"/>
-    <h3>Libraries</h3>
-    <img src={lineBar} alt="blue line"/>
-    </div>
-    <div id="LibraryGrid">
-    <div>
-    <img src={Html5} alt="Html5 logo"/>
-    <figcaption>React</figcaption>
-    </div>
-      <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>MongoDB</figcaption>
-        </div>
-      </div> */}
-
 
     <br/>
+
 
 {/* Frameworks section */}
     <div className="skills">
     <h3>Frameworks</h3>
     </div>
+    <br/>
     <div id="FrameworkGrid">
       <div>
         <img src={Bootstrap} alt="Bootstrap logo"/>
@@ -176,10 +160,6 @@ const About = () => {
         <img src={Redux} alt="Redux logo"/>
         <figcaption>Redux</figcaption>
       </div>
-      <div>
-        <img src={ApolloGraphQL} alt="Apollo GraphQL logo"/>
-        <figcaption>Apollo GraphQL</figcaption>
-      </div>
     </div>
 
 
@@ -189,6 +169,7 @@ const About = () => {
     <div className="skills">
     <h3>Tools</h3>
     </div>
+    <br/>
     <div id="ToolsGrid">
       <div>
         <img src={CommdLine} alt="Command Line logo"/>
@@ -196,7 +177,7 @@ const About = () => {
       </div>
       <div>
         <img src={DevTools} alt="Developer Tools logo"/>
-        <figcaption>Dev Tools</figcaption>
+        <figcaption>Chrome Dev Tools</figcaption>
       </div>
       <div>
         <img src={Git} alt="Git logo"/>
@@ -225,14 +206,14 @@ const About = () => {
         <img src={Ajax} alt="Ajax logo"/>
         <figcaption>AJAX</figcaption>
       </div>
-      {/* <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>Fetch</figcaption>
+      <div>
+        <img src={GraphQL} alt="Html5 logo"/>
+        <figcaption>GraphQL</figcaption>
         </div>
         <div>
-        <img src={Html5} alt="Html5 logo"/>
-        <figcaption>JWT</figcaption>
-      </div> */}
+        <img src={Apollo} alt="Html5 logo"/>
+        <figcaption>Apollo</figcaption>
+      </div>
     </div>
 
     <br></br>

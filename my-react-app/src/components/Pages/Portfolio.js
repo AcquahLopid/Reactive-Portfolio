@@ -21,7 +21,7 @@ const Portfolio = () => (
             <br></br>
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
-                    <div className="card bg-success h-100 overflow-hidden d-flex flex-column">
+                    <div className="card purple-bg h-100 overflow-hidden d-flex flex-column">
                         <img src={Emojify} className="rounded-bottom-4 card-img-top" alt="Emojify Project" />
                         <div className="card-body d-flex flex-column">
                             <h5 className="card-title fs-2">Emojify</h5>
@@ -31,10 +31,10 @@ const Portfolio = () => (
                                 and can also explore past recommendations.
                             </p>
                             <div className="d-grid gap-2 mt-auto">
-                                <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://samhiga.github.io/emojify/")}>
+                                <button className="btn btn-light" type="button" onClick={() => window.open("https://samhiga.github.io/emojify/", "_blank", "noopener noreferrer")}>
                                     Deployed Site
                                 </button>
-                                <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://github.com/AcquahLopid/emojify")}>
+                                <button className="btn btn-light" type="button" onClick={() => window.open("https://github.com/AcquahLopid/emojify", "_blank", "noopener noreferrer")}>
                                     Repository
                                 </button>
                             </div>
@@ -42,7 +42,7 @@ const Portfolio = () => (
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card bg-success h-100 overflow-hidden d-flex flex-column">
+                    <div className="card purple-bg h-100 overflow-hidden d-flex flex-column">
                         <img src={C2C} className="rounded-bottom-4 card-img-top" alt="C2C Project" />
                         <div className="card-body d-flex flex-column">
                             <h5 className="card-title fs-2">C2C</h5>
@@ -52,10 +52,10 @@ const Portfolio = () => (
                                 (Admin Login: admin@email.com | Password: password) <br /> (Client Login: email1@email.com | Password: password1)
                             </p>
                             <div className="d-grid gap-2 mt-auto">
-                                <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://small-business-project-client.herokuapp.com/")}>
+                                <button className="btn btn-light" type="button" onClick={() => window.open("https://small-business-project-client.herokuapp.com/", "_blank", "noopener noreferrer")}>
                                     Deployed Site
                                 </button>
-                                <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://github.com/AcquahLopid/small-business-project")}>
+                                <button className="btn btn-light" type="button" onClick={() => window.open("https://github.com/AcquahLopid/small-business-project", "_blank", "noopener noreferrer")}>
                                     Repository
                                 </button>
                             </div>
@@ -63,7 +63,7 @@ const Portfolio = () => (
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card bg-success h-100 overflow-hidden d-flex flex-column">
+                    <div className="card purple-bg h-100 overflow-hidden d-flex flex-column">
                         <img src={DayScheduler} className="rounded-bottom-4 card-img-top" alt="Another Project" />
                         <div className="card-body d-flex flex-column">
                             <h5 className="card-title fs-2">Work Day Scheduler</h5>
@@ -75,10 +75,10 @@ const Portfolio = () => (
                                 segments and write whatever they want.
                             </p>
                             <div className="d-grid gap-2 mt-auto">
-                                <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://acquahlopid.github.io/Work-Scheduler/")}>
+                                <button className="btn btn-light" type="button" onClick={() => window.open("https://acquahlopid.github.io/Work-Scheduler/", "_blank", "noopener noreferrer")}>
                                     Deployed Site
                                 </button>
-                                <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://github.com/AcquahLopid/Work-Scheduler")}>
+                                <button className="btn btn-light" type="button" onClick={() => window.open("https://github.com/AcquahLopid/Work-Scheduler", "_blank", "noopener noreferrer")}>
                                     Repository
                                 </button>
                             </div>
@@ -93,7 +93,7 @@ const Portfolio = () => (
 
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
-                    <div className="card bg-success h-100 overflow-hidden d-flex flex-column">
+                    <div className="card purple-bg h-100 overflow-hidden d-flex flex-column">
                         <img src={PasswordGen} className="rounded-bottom-4 card-img-top" alt="Password Generator Project" />
                         <div className="card-body d-flex flex-column">
                             <h5 className="card-title fs-2">Password Generator</h5>
@@ -103,10 +103,10 @@ const Portfolio = () => (
                                 based on their conditions.
                             </p>
                             <div className="d-grid gap-2 mt-auto">
-                                <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://acquahlopid.github.io/password-generator/")}>
+                                <button className="btn btn-light" type="button" onClick={() => window.open("https://acquahlopid.github.io/password-generator/", "_blank", "noopener noreferrer")}>
                                     Deployed Site
                                 </button>
-                                <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://github.com/AcquahLopid/password-generator")}>
+                                <button className="btn btn-light" type="button" onClick={() => window.open("https://github.com/AcquahLopid/password-generator", "_blank", "noopener noreferrer")}>
                                     Repository
                                 </button>
                             </div>
@@ -114,7 +114,7 @@ const Portfolio = () => (
                     </div>
                 </div>
             <div className="col">
-            <div className="card bg-success h-100 overflow-hidden d-flex flex-column">
+            <div className="card purple-bg h-100 overflow-hidden d-flex flex-column">
                 <img src={NoteTaker} className="rounded-bottom-4 card-img-top" alt="Another Project" />
                 <div className="card-body d-flex flex-column">
                     <h5 className="card-title fs-2">Note Taker</h5>
@@ -124,10 +124,10 @@ const Portfolio = () => (
                         storage aswell.
                     </p>
                     <div className="d-grid gap-2 mt-auto">
-                        <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://young-waters-35716.herokuapp.com/")}>
+                        <button className="btn btn-light" type="button" onClick={() => window.open("https://young-waters-35716.herokuapp.com/", "_blank", "noopener noreferrer")}>
                             Deployed Site
                         </button>
-                        <button className="btn btn-light" type="button" onClick={() => (window.location.href = "https://github.com/AcquahLopid/note-taker")}>
+                        <button className="btn btn-light" type="button" onClick={() => window.open("https://github.com/AcquahLopid/note-taker", "_blank", "noopener noreferrer")}>
                             Repository
                         </button>
                     </div>
