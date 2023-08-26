@@ -23,7 +23,7 @@ height: 7rem;
 width: 7rem;
 cursor: pointer;
 z-index: 1000;
-box-shadow: 0 1rem 3rem rgba(182, 237, 200, 0.3);
+box-shadow: 0 1rem 3rem rgba(159,109,159,1.00);
 text-align: center;
 
 `;
@@ -205,13 +205,13 @@ function HamburgerNav() {
                     </li>
                     <LogoLinks>
 
-                        <LogoA href="https://github.com/AcquahLopid" >
+                        <LogoA href="https://github.com/AcquahLopid" target="_blank" rel="noopener noreferrer">
                             <LogoImg src={Github} alt="Emanuel Molina's Github"/>
                         </LogoA>
-                        <LogoA href="https://www.linkedin.com/in/emanuel-molina-65b84426b/" >
+                        <LogoA href="https://www.linkedin.com/in/emanuel-molina-65b84426b/" target="_blank" rel="noopener noreferrer">
                             <LogoImg src={Linkedin} alt="Emanuel Molina's Linkedin"/>
                         </LogoA>
-                        <LogoA href="https://medium.com/@emanuel.molina2k" >
+                        <LogoA href="https://medium.com/@emanuel.molina2k" target="_blank" rel="noopener noreferrer">
                             <LogoImg src={Medium} alt="Emanuel Molina's Medium Blog"/>
                         </LogoA>
                     </LogoLinks>

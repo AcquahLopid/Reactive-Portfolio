@@ -4,17 +4,15 @@ import ResumePDF from "../Assets/EmanuelResume.pdf";
 import GoToTop from '../Utils/GoToTop';
 
 const Resume = () => {
-  // const [resumeUrl, setResumeUrl] = useState(ResumePDF);
 
   const handleDownload = () => {
-    // this Opens the resume PDF in a new tab for download
-    window.open(ResumePDF);
+    window.open(ResumePDF, "noopener noreferrer");
   };
 
 
   return (
     <div className="Resume">
-    <div className="resume-container">
+    <div className="resume-row-container">
       <div className="personal-info">
         <div className="contact-info">
           <h1>Emanuel Molina</h1>

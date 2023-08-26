@@ -6,15 +6,21 @@
     text-align: justify;
 }
 
-/* style the download button */
-
-.resume-container {
+/* .resume-container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     background-color: #f5f5f5;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+} */
+.resume-row-container {
+  /* display: flex; */
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 #btn {
     background-color:#734b6d;
@@ -35,8 +41,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 30%;
+    /* width: 30%; */
     background-color: #fff;
+    margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -45,23 +52,18 @@
 .personal-info h1{
     padding-top: 5px;
     padding-bottom: 25px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 600;
 }
 
-  /* .contact-info {
-     Style your contact information here 
-  } */
-  
   .resume-details {
-    width: 65%;
+    /* width: 80%; */
     background-color: #fff;
     padding: 20px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
   }
-  
-  /* Add styles for your work experience, education, and other sections here */
-  
+
   .resume-section {
     margin-top: 20px;
 }
