@@ -152,9 +152,9 @@ html, body{
   }
    }
 
-  @media only screen and (max-width:900px){
+  @media only screen and (max-width:990px){
    .MainContainer {
-    padding-top: 130%;
+    padding-top: 140%;
   }
   .pictureTitle , .myPicture, .title{
     width: 130%;
@@ -205,7 +205,7 @@ html, body{
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 80%;
+      width: 60%;
     }
    .MainContainer {
     padding-top: 200%;
@@ -223,7 +223,7 @@ html, body{
   .aboutP{
     /* width: 60%; */
     font-size: 8px;
-    padding-right: 150px;
+    padding-right: 100px;
   }
    }
   @media only screen and (max-width:320px){
@@ -231,7 +231,7 @@ html, body{
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 150%;
+      width: 130%;
     }
    .MainContainer {
     padding-top: 250%;
@@ -265,7 +265,7 @@ html, body{
       width: 110%;
     }
    .MainContainer {
-    padding-top: 250%;
+    padding-top: 200%;
     width: 40%;
   }
   .pictureTitle , .myPicture, .title{
@@ -274,13 +274,15 @@ html, body{
     margin-left: 50px;
   }
   .title{
-    margin-left:8px;
+    margin-left:1px;
   }
   
   .aboutText h2{
     font-size: 14px;
   }
   .aboutP{
-    font-size: 8px;
+    margin-right: -20%;
+    font-size: 6px;
+    gap: 1px;
   }
    }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import styled, {keyframes} from "styled-components";
+import "./HamburgerNavBar.css";
 
 //Navbar logos
 import Github from "./Assets/githubLogo.png";
